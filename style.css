@@ -2,6 +2,10 @@ body{
     background-color: black;
 }
 
+*::selection{
+    background-color: salmon;
+}
+
 
 .container{
     display: flex;
