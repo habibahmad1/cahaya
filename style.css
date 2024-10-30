@@ -24,14 +24,11 @@ body{
     margin: 20px;
     position: relative;
     border: 4px solid white;
+    justify-content: space-evenly;
 }
 
 .card img{
-    left: 0;
-    position: absolute;
-    margin-left: 60px;
-    object-fit: cover;
-    border: 4px solid white;
+    
 
 }
 
@@ -53,10 +50,9 @@ a{
 
 @media (max-width: 600px) {
     .card {
-        width: 70%; /* Mengisi hampir seluruh layar ponsel */
-        height: 80px; /* Sedikit dikurangi untuk layar kecil */
+        width: 300px; /* Mengisi hampir seluruh layar ponsel */
+        height: 60px; /* Sedikit dikurangi untuk layar kecil */
         border-radius: 50px; /* Border-radius dikurangi */
-        padding-left: 80px; /* Kurangi padding untuk ruang gambar */
     }
 
     .card img {
@@ -67,5 +63,9 @@ a{
 
     .card a {
         font-size: 20px; /* Ukuran teks lebih kecil */
+    }
+
+    .card small{
+        font-size: 20px;
     }
 }
